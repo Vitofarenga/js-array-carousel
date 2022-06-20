@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-#immagine{
+.immagine{
    height: 50vh;
 }
-#big{
-
+.container #big #cont-2 img{
+ display: none;
 }
+.container #big #cont-2 img.active{
+    display: block;
+   }
