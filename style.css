@@ -11,4 +11,10 @@
 }
 .container #big #cont-2 img.active{
     display: block;
+    object-fit: cover;
    }
+   
+#cont-2{
+    object-fit: cover;
+    width: 600px;
+}
